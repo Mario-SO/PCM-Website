@@ -16,3 +16,4 @@ export default function CardPost({ author, ships, price, image }) {
 
     )
 }
+

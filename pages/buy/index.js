@@ -5,8 +5,8 @@ import styles from '../../Styles/Buy.module.css'
 export default function Buy() {
     return (
         <div className={styles.container}>
-            <UpperText heading="BUY" phrase="See what people are offering."/>
-            <div className={styles.grid}>
+            <UpperText heading="BUY" phrase="See what people is offering." />
+            <div className={styles.grid} id="grid">
                 <CardPost author="Mario" ships="Usa" price="100" image="https://i.imgur.com/gSkx3iK.jpg" />
                 <CardPost author="Mario" ships="Usa" price="100" image="https://i.imgur.com/gSkx3iK.jpg" />
                 <CardPost author="Mario" ships="Usa" price="100" image="https://i.imgur.com/gSkx3iK.jpg" />
