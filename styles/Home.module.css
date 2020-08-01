@@ -38,14 +38,17 @@
   align-items: center;
 }
 
+.footer a:hover, .footer a:focus, .footer a:active {
+  color: #0070f3;
+  text-decoration: none;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
+.title a:hover, .title a:focus, .title a:active {
   text-decoration: underline;
 }
 
@@ -55,8 +58,7 @@
   font-size: 3.3rem;
 }
 
-.title,
-.description {
+.title, .description {
   text-align: center;
 }
 
@@ -70,8 +72,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
@@ -79,7 +80,6 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
   max-width: 800px;
   margin-top: 3rem;
 }
@@ -94,13 +94,11 @@
   border: 1px solid #131313;
   border-radius: 10px;
   background-color: #fff;
-  
+  box-shadow: .3rem .35rem #000000;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  box-shadow: .45rem .55rem #000000;
+.card:hover, .card:focus, .card:active {
+  box-shadow: .6rem .7rem #000000;
   transition: box-shadow 550ms;
 }
 

@@ -13,15 +13,17 @@
     text-decoration: none;
     border: 1px solid #131313;
     border-radius: 10px;
-    background-color: #fff
+    background-color: #fff;
+    box-shadow: .3rem .35rem #000000;
 }
 
 .cardpost img {
     width: 100%;
     height: 300px;
+    border-radius: 10px;
 }
 
 .cardpost:hover, .cardpost:focus, .cardpost:active {
-    box-shadow: .45rem .55rem #000000;
+    box-shadow: .6rem .7rem #000000;
     transition: box-shadow 550ms;
 }

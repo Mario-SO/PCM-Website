@@ -1,13 +1,11 @@
 import CardPost from '../../Components/CardPost'
+import UpperText from '../../Components/UpperText'
 import styles from '../../Styles/Buy.module.css'
 
 export default function Buy() {
     return (
         <div className={styles.container}>
-            <div className={styles.text}>
-                <h1 className={styles.heading1}>BUY</h1>
-                <p className={styles.paraph}>See what others have to offer</p>
-            </div>
+            <UpperText heading="BUY" phrase="See what people are offering."/>
             <div className={styles.grid}>
                 <CardPost author="Mario" ships="Usa" price="100" image="https://i.imgur.com/gSkx3iK.jpg" />
                 <CardPost author="Mario" ships="Usa" price="100" image="https://i.imgur.com/gSkx3iK.jpg" />
