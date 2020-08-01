@@ -1,0 +1,16 @@
+{
+    "posts": [
+        {
+            "author": "Hola",
+            "ships": "worldwide",
+            "price": 12,
+            "image": "https://imgur.com/gallery/cHKiLP5"
+        },
+        {
+            "author": "Hola2",
+            "ships": "USA",
+            "price": 20,
+            "image": "https://imgur.com/gallery/cHKiLP5"
+        }
+    ]
+}

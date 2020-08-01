@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -21,21 +22,23 @@ export default function Home() {
 
         <div className={styles.grid}>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Buy&rarr;</h3>
-            <p>Discover what people are selling and get in touch with them.</p>
-          </a>
+          <Link href="/buy">
+            <a
+              className={styles.card}
+            >
+              <h3>Buy&rarr;</h3>
+              <p>Discover what people are selling and get in touch with them.</p>
+            </a>
+          </Link>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Sell&rarr;</h3>
-            <p>Contact us to make your products visible on the website.</p>
-          </a>
+          <Link href="/sell">
+            <a
+              className={styles.card}
+            >
+              <h3>Sell&rarr;</h3>
+              <p>Contact us to make your products visible on the website.</p>
+            </a>
+          </Link>
 
         </div>
       </main>
