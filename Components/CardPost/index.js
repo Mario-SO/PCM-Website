@@ -7,7 +7,7 @@ export default function CardPost({ author, ships, price, image }) {
             <div className={styles.cardpost}>
                 <img className={styles.postimage} src={image} />
                 <div className={styles.container}>
-                    <h2>{author}</h2>
+                    <h2>u/{author}</h2>
                     <p>[{ships}]</p>
                     <p>{price}$</p>
                 </div>
